@@ -1,0 +1,28 @@
+# Created by https://www.gitignore.io/api/phpunit,netbeans
+# Edit at https://www.gitignore.io/?templates=phpunit,netbeans
+
+### NetBeans ###
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### PHPUnit ###
+# Covers PHPUnit
+# Reference: https://phpunit.de/
+
+# Generated files
+.phpunit.result.cache
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# End of https://www.gitignore.io/api/phpunit,netbeans
